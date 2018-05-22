@@ -21,4 +21,5 @@ if __name__ == "__main__":
             response = chatbot.get_response(user_input)
             print(response)
         except(EOFError, KeyboardInterrupt, SystemExit):
+            print()
             break
